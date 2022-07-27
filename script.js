@@ -1,6 +1,7 @@
-var skills = ["CSS", "HTML", "JS", "Tailwind CSS", "symfony", "vuejs", "..."]
+var skills = ["CSS", "HTML", "JS", "Tailwind CSS", "symfony", "vuejs", "python", "écriture comptable", "..."]
 
 var passions = ["Foot","Sports", "Manga/Anime", "Jeux vidéos"]
+// Foot en club jusqu'au début du covid
 
 var nbClick = 0
 
