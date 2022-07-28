@@ -1,4 +1,4 @@
-var skills = ["CSS", "HTML", "JS", "Tailwind CSS", "symfony", "vuejs", "python", "écriture comptable", "..."]
+var skills = ["CSS", "HTML", "Javascript", "Tailwind CSS", "symfony", "vuejs", "python", "GitHub", "SQL", "écriture comptable"]
 
 var passions = ["Foot","Sports", "Manga/Anime", "Jeux vidéos"]
 // Foot en club jusqu'au début du covid
@@ -20,7 +20,7 @@ document.getElementById("passionsButton").addEventListener("click", function(){
         for (i = 0; i < passions.length; i++){
             document.getElementById("myPassions").innerHTML += 
             `
-                <li class="p-2"> ${passions[i]}</li>
+                <li class="p-2  text-violet-700"> ${passions[i]}</li>
             `
         }
     }
