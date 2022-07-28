@@ -20,7 +20,7 @@ document.getElementById("passionsButton").addEventListener("click", function(){
         for (i = 0; i < passions.length; i++){
             document.getElementById("myPassions").innerHTML += 
             `
-                <li class="flex justify-center  p-2"> ${passions[i]}</li>
+                <li class="p-2"> ${passions[i]}</li>
             `
         }
     }
